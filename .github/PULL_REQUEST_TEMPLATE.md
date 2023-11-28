@@ -17,6 +17,9 @@ We are excited to hear about your dream, and to see you at the *leaderdhip summi
 <!-- Please fill out your name -->
 ## Slack
 
+# Teammates?
+If you have teammates, please @ list ther githubs here. If you don't have teammates, don't worry! We will help you find teammates at the summit!
+
 
 - [ ] I have uploaded my markdown file to this pull request
 - [ ] I have filled out the following template
