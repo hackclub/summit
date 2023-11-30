@@ -1,64 +1,56 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import { Akaya_Kanadaka } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const akaya = Akaya_Kanadaka({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main>
-      <h1>
-        Leaders Summit
-      </h1>
-      <img src="./HackClubLogo.svg"/>
-      <p>
-      A magical weekend of invention in San Francisco with the best club leaders from around the world
-      </p>
-      <button>
-        Share Your Dream
-      </button>
-      <img src="./bridge.svg"/>
+    <main className={akaya.className}>
+      <Navbar />
+      <Hero />
       <h2>You're At The Top Of Your Craft</h2>
-      <img src="./plane.svg"/>
+      <img src="./plane.svg" />
       <h2>50 Inventors</h2>
       <h3>a gathering of dreamers</h3>
-      <img src="./dinos.svg"/>
+      <img src="./dinos.svg" />
       <h2>Feb. 23rd-25th</h2>
       <h3>a weekend of dreams</h3>
-      <img src="./california.svg"/>
+      <img src="./california.svg" />
       <h2>San Francisco</h2>
       <h3>a city of dreams</h3>
-      <img src="./triangles.svg"/>
-      <h2>
-      Here's Your Story
-      </h2>
-      <img src="./slide1.svg"/>
-      <img src="./slide2.svg"/>
-      <img src="./slide3.svg"/>
-      <img src="./slide4.svg"/>
+      <img src="./triangles.svg" />
+      <h2>Here's Your Story</h2>
+      <img src="./slide1.svg" />
+      <img src="./slide2.svg" />
+      <img src="./slide3.svg" />
+      <img src="./slide4.svg" />
       <h1>Your First Step Begins... now</h1>
       <h2>Dreams are projects ideas in your heart waiting to come to life</h2>
       <div>
         <h2>Share Your Dream</h2>
         <div>
           <p>Dream Code Name (flexible)</p>
-          <input placeholder="orpheusMaps"/>
+          <input placeholder="orpheusMaps" />
         </div>
         <div>
           <p>Collaborators (github usernames)</p>
-          <input placeholder="orpheus, zrl, zsh"/>
+          <input placeholder="orpheus, zrl, zsh" />
         </div>
         <div>
           <p>Dream Code Name (flexible)</p>
-          <textarea placeholder="Imagine a map with every club, hackathon, and
+          <textarea
+            placeholder="Imagine a map with every club, hackathon, and
 community event full of content from club meets,
-hackathons, and project ships." />
+hackathons, and project ships."
+          />
           <div>
             <p>Upload a sketch of your dream</p>
-            <input type="file"/>
+            <input type="file" />
           </div>
           <button>Download yourDream.md</button>
           <button>leaders-summit repo</button>
-          <p>To register, share your dream in a PR.  Here’s a video on how to make your dream PR</p>
+          <p>To register, share your dream in a PR. Here’s a video on how to make your dream PR</p>
         </div>
       </div>
 
@@ -71,5 +63,5 @@ hackathons, and project ships." />
         <p>dream with us in #leaders-summit on Hack Club Slack</p>
       </div>
     </main>
-  )
+  );
 }
