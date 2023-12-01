@@ -7,7 +7,7 @@ const akaya = Akaya_Kanadaka({ weight: "400", subsets: ["latin"] });
 export default function Home() {
   return (
     <main className={akaya.className}>
-      <Navbar />
+      <Navbar/>
       <Hero />
       <h2>You're At The Top Of Your Craft</h2>
       <img src="./plane.svg" />
