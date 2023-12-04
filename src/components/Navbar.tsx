@@ -4,7 +4,7 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <div className="py-2 sticky top-0 flex overflow-x-hidden bg-amber-200 text-primary text-2xl">
+    <div className="py-2 sticky top-0 z-10 flex overflow-x-hidden bg-amber-200 text-primary text-2xl">
       <div className="animate-marquee whitespace-nowrap">
         <span className="mx-2">hackers... we are like no other. we want a better world.</span>
         <span className="bg-red-700 rounded-full px-2.5 text-xl py-1.5 text-secondary">:)</span>
