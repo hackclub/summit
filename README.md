@@ -9,7 +9,8 @@ Here are some fun exercises to come up with ideas.
 Also, here are some ideas to draw inspiration from:
 * Spotify Wrapped is a pretty viral cultural phenmoneon these days. How might a similar concept exist in Hack Club?
 * Drawing Orpheus is hard... what if there was an AI model for orpheus drawings?
-* 
+* The pizza grant is awesome! Maybe you have an idea for a new grant program. Build it.
+* We don't have a great authentication system for clubs right now, maybe we should.
 
 ## How can I join?
 
