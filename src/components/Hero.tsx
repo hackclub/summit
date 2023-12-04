@@ -1,5 +1,6 @@
 import React from "react";
 import { UnifrakturCook } from "next/font/google";
+import Image from "next/image";
 
 const unifraktur = UnifrakturCook({ weight: "700", subsets: ["latin"] });
 
@@ -13,7 +14,8 @@ const Hero = () => {
           >
             Leaders Summit
           </h1>
-          <img
+          <Image
+            alt="Hack Club Logo"
             src="./HackClubLogo.svg"
             className="border-l-0 border-[3px] border-secondary w-[173px]"
           />
@@ -28,7 +30,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <img src="./bridge.svg" />
+      <Image alt="SF" src="./bridge.svg" />
     </div>
   );
 };

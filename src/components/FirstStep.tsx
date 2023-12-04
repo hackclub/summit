@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 
@@ -67,9 +68,9 @@ const FirstStep = () => {
         </div>
         <p className="text-primary text-2xl">
           To register, share your dream in a PR. Here's a{" "}
-          <a href="/" className="underline">
+          <Link href="/" className="underline">
             video on how to make your dream PR
-          </a>
+          </Link>
         </p>
       </div>
     </div>
