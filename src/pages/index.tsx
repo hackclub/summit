@@ -1,4 +1,7 @@
+import Examples from "@/components/Examples";
+import FAQ from "@/components/FAQ";
 import FirstStep from "@/components/FirstStep";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Section2 from "@/components/Section2";
@@ -15,15 +18,9 @@ export default function Home() {
       <Section2 />
       <Story />
       <FirstStep />
-
-      <h2>here are some dreams (from the repo)</h2>
-      <p>//populate dream chips here</p>
-      <h3>additional information</h3>
-      <p>//populate Q&A here</p>
-      <p>Have any other questions? Reach out to thomas@hackclub.com</p>
-      <div>
-        <p>dream with us in #leaders-summit on Hack Club Slack</p>
-      </div>
+      <Examples />
+      <FAQ />
+      <Footer />
     </main>
   );
 }
