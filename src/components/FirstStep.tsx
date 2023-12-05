@@ -23,18 +23,18 @@ const FirstStep = () => {
             <p className="text-primary text-xl">Dream Code Name (flexible)</p>
             <input
               placeholder="orpheusMaps"
-              className="border-[2.5px] bg-secondary border-primary px-2 py-1.5 w-full placeholder:text-primary/30 text-xl mb-2"
+              className="border-[2.5px] bg-secondary border-primary px-2 py-1.5 w-full placeholder:text-primary/30 text-xl mb-2 text-primary outline-none"
             />
 
             <p className="text-primary text-xl">Collaborators (github usernames)</p>
             <input
               placeholder="orpheus, zrl, zsh"
-              className="border-[2.5px] bg-secondary border-primary px-2 py-1.5 w-full placeholder:text-primary/30 text-xl mb-2"
+              className="border-[2.5px] bg-secondary border-primary px-2 py-1.5 w-full placeholder:text-primary/30 text-xl mb-2 text-primary outline-none"
             />
 
             <p className="text-primary text-xl">Your Dream Project Idea</p>
             <textarea
-              className="border-[2.5px] bg-secondary border-primary px-2 py-1.5 w-full placeholder:text-primary/30 text-xl mb-2"
+              className="border-[2.5px] bg-secondary border-primary px-2 py-1.5 w-full placeholder:text-primary/30 text-xl mb-2 text-primary outline-none"
               placeholder="Imagine a map with every club, hackathon, and community event full of content from club meets, hackathons, and project ships."
             />
           </div>
