@@ -1,10 +1,10 @@
-import React from "react";
 import { UnifrakturCook } from "next/font/google";
-import Image from "next/image";
+import { useRouter } from "next/router";
 
 const unifraktur = UnifrakturCook({ weight: "700", subsets: ["latin"] });
 
 const Hero = () => {
+  const router = useRouter();
   return (
     <div className="flex flex-col items-center bg-primary">
       <div className="flex flex-col items-center max-w-[725px]">
@@ -25,7 +25,9 @@ const Hero = () => {
             A magical weekend of invention in San Francisco with the best club leaders from around
             the world
           </p>
-          <button className="flex-1 bg-secondary w-fit py-8 text-primary text-2xl border-[6px] border-primary">
+          <button
+            onClick={() => router.push("/#dream")}
+          className="flex-1 bg-secondary w-fit py-8 text-primary text-2xl border-[6px] border-primary">
             Share Your Dream
           </button>
         </div>

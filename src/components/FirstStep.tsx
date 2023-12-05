@@ -10,7 +10,7 @@ const FirstStep = () => {
   const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop });
 
   return (
-    <div className="bg-primary relative py-10">
+    <div id="dream" className="bg-primary relative py-10">
       <h2 className="text-center text-secondary text-5xl">Your First Step Begins... now</h2>
       <p className="text-center text-secondary text-2xl mb-8">
         Dreams are projects ideas in your heart waiting to come to life
