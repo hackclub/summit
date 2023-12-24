@@ -27,8 +27,12 @@ const Hero = () => {
           </p>
           <button
             onClick={() => router.push("/#dream")}
-          className="flex-1 bg-secondary w-fit py-8 text-primary text-2xl border-[6px] border-primary">
-            Share Your Dream
+            className="flex-1 bg-secondary w-fit py-8 text-primary text-2xl border-[3px] border-primary m-2"
+            style={{
+              boxShadow: "rgba(255, 236, 150, 1) 0px 0px 0px 2px",
+            }}
+          >
+            Register for Summit
           </button>
         </div>
       </div>
