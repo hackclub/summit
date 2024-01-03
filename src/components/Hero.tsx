@@ -6,9 +6,10 @@ const unifraktur = UnifrakturCook({ weight: "700", subsets: ["latin"] });
 const Hero = () => {
   const router = useRouter();
   return (
-    <div className="flex flex-col items-center bg-primary">
-      <div className="flex flex-col items-center max-w-[725px]">
-        <div className="flex items-center mt-8">
+    <div className="sm:flex hidden flex-col items-center bg-primary">
+      <div className="flex flex-col items-center justify-stretch w-full">
+        <div className="flex items-stretch mt-8" style={{ width: "calc(100% - 3rem)" }}>
+          <div className="flex-1 bg-primary h-auto border-t-[3px] border-t-secondary"></div>
           <h1
             className={`text-[5rem] ${unifraktur.className} text-secondary px-5 border-[3px] border-secondary`}
           >
@@ -19,8 +20,9 @@ const Hero = () => {
             src="./HackClubLogo.svg"
             className="border-l-0 border-[3px] border-secondary w-[173px]"
           />
+          <div className="flex-1 bg-primary w-full h-auto border-b-[3px] border-b-secondary"></div>
         </div>
-        <div className="flex items-stretch">
+        <div className="flex items-stretch max-w-[725px]">
           <p className="text-left flex-[2] border-t-0 border-[3px] border-secondary text-secondary p-3 text-2xl">
             A magical weekend of invention in San Francisco with the best club leaders from around
             the world
