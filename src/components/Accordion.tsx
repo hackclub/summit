@@ -23,25 +23,40 @@ const CUSTOM_ANIMATION = {
 
 const items = [
   {
-    title: "Can I get a travel stipend to attend the summit?",
+    title: "Does participating cost anything?",
+    content: "It does not! We’ll have delicious meals, snacks, and beverages onsite at the event, as well as swag and fun mini-events. We also have travel stipends that cover flights and public transit for leaders who don’t live in San Francisco. You can apply for a stipend while signing up!",
+  },
+  {
+    title: "Am I eligible to sign up for The Summit?",
     content:
-      "We're not always in the position that we want to be at. We're constantly growing. We're constantly making mistakes. We're constantly trying to express ourselves and actualize our dreams.",
+      "If you currently lead a Hack Club in your school, yes! If you’ve recently started a Hack Club at your school, you are also encouraged to apply!",
+  },
+  {
+    title: "What do I need to bring to The Summit?",
+    content:
+      "Your laptop, chargers, toiletries, sleeping bags, a refillable water bottle, and the spirit of an inventor!",
+  },
+  {
+    title: "What exactly is The Summit? What projects am I allowed to build?",
+    content:
+      "The Summit is a hackathon for club leaders. Build projects that will make your club better. Your team might build a club VR headset, an AI Orpheus plushie, or a spontaneous club gathering app. Be creative, make friends, and return to your club with something awesome that brings them a bunch of joy.",
   },
   {
     title: "Where in SF is the event?",
-    content:
-      "We're not always in the position that we want to be at. We're constantly growing. We're constantly making mistakes. We're constantly trying to express ourselves and actualize our dreams.",
+    content: "Our venue is right in the middle of San Francisco! We’ll release the exact address leading up to the event, but it is a 5 minute walk from Mission Dolores Park!"
   },
   {
-    title: "What makes a magical dream?",
-    content:
-      "We're not always in the position that we want to be at. We're constantly growing. We're constantly making mistakes. We're constantly trying to express ourselves and actualize our dreams.",
+    title: "What are the sleeping arrangements?",
+    content: "On the night of the event we will have a designated gender-seperated and supervised sleeping area in the venue with lowlights and minimal sound for you to rest. Make sure to bring a sleeping bag!"
   },
   {
-    title: "Can I collaborate on a dream?",
-    content:
-      "We're not always in the position that we want to be at. We're constantly growing. We're constantly making mistakes. We're constantly trying to express ourselves and actualize our dreams.",
+    title: "My parents are worried. What should I do?",
+    content: "Please refer to the parents’ guide for additional information! If they have any additional questions, encourage them to reach out to us! We’re happy to talk to them. The Summit will be supervised by a background checked staff and 24/7 security. Shoot us an email at summit@hackclub.com, and we’ll be happy to answer any questions!"
   },
+  {
+    title: "I have more questions. How can I reach out?",
+    content: "Reach out on #summit on the Hack Club Slack, or email the team at summit@hackclub.com. We're always ready to answer all your questions!"
+  }
 ];
 
 export function AccordionComponent() {
