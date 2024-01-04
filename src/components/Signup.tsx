@@ -6,8 +6,8 @@ const Signup = () => {
   const [email, setEmail] = useState("");
 
   return (
-    <div id="dream" className="w-full relative flex items-center bg-primary py-14 px-6">
-      <div className="flex items-stretch justify-stretch text-secondary h-auto mx-auto w-full">
+    <div id="dream" className="w-full relative flex items-center bg-primary py-14 sm:px-6 px-2">
+      <div className="flex items-stretch justify-stretch text-secondary h-auto mx-auto w-full border-t-[4px] border-b-[4px] sm:border-none border-secondary">
         <div className="flex-1 bg-primary h-auto border-t-[6px] border-secondary"></div>
         <img
           src="/signup.svg"
@@ -25,7 +25,7 @@ const Signup = () => {
               lastName
             )}`;
           }}
-          className="sm:p-8 sm:border-[6px] border-secondary h-auto sm:max-h-[450px] my-0 mx-auto lg:mx-0"
+          className="p-8 sm:border-[6px] border-secondary h-auto sm:max-h-[450px] my-0 mx-auto lg:mx-0"
         >
           <h1 className="text-center text-[46px] leading-none">
             Your First Step Begins...&nbsp;Now

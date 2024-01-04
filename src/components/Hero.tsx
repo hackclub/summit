@@ -22,10 +22,10 @@ const Hero = () => {
           />
           <div className="flex-1 bg-primary w-full h-auto border-b-[3px] border-b-secondary"></div>
         </div>
-        <div className="flex items-stretch max-w-[725px]">
+        <div className="flex items-stretch max-w-[725px]" style={{ width: "calc(100% - 3rem)" }}>
           <p className="text-left flex-[2] border-t-0 border-[3px] border-secondary text-secondary p-3 text-2xl">
-            A weekend of invention, collaboration, and friendship in San Francisco with 50 Hack
-            Club leaders from around the world.
+            A weekend of invention, collaboration, and friendship in San Francisco with 50 Hack Club
+            leaders from around the world.
           </p>
           <button
             onClick={() => router.push("/#dream")}

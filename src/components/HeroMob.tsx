@@ -19,15 +19,15 @@ const HeroMob = () => {
         />
       </div>
       <div className="flex flex-col items-center" style={{ width: "calc(100% - 1rem)" }}>
-        <div className="flex items-center">
+        <div className="flex items-center w-full">
           <h1
-            className={`text-[5rem] ${unifraktur.className} text-secondary px-5 border-t-[3px] border-b-[3px] border-secondary py-10 leading-none text-center`}
+            className={`text-[5rem] ${unifraktur.className} text-secondary px-5 border-t-[3px] border-b-[3px] border-secondary py-10 leading-none text-center w-full`}
           >
             Leaders Summit
           </h1>
         </div>
       </div>
-      <div className="text-secondary text-2xl mt-5 px-6">
+      <div className="text-secondary md:text-2xl mt-5 px-6">
         A weekend of invention, collaboration, and friendship in San Francisco with 50 Hack Club
         leaders from around the world.
       </div>
