@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Image from "next/image";
 
 const Signup = () => {
   const [firstName, setFirstName] = useState("");
@@ -10,7 +9,7 @@ const Signup = () => {
     <div id="dream" className="w-full relative flex items-center bg-primary py-14 px-6">
       <div className="flex items-stretch justify-stretch text-secondary h-auto mx-auto w-full">
         <div className="flex-1 bg-primary h-auto border-t-[6px] border-secondary"></div>
-        <Image
+        <img
           src="/signup.svg"
           className="h-auto lg:block hidden max-h-[450px] border-t-[6px] border-secondary"
           alt="signup graphic"
@@ -78,7 +77,7 @@ const Signup = () => {
             </button>
           </div>
         </form>
-        <Image
+        <img
           src="/rsvp.svg"
           className="h-auto lg:block hidden max-h-[450px] border-b-[6px] border-secondary"
           alt="rsvp here"

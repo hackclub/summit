@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Story = () => {
   return (
     <div className="bg-primary relative py-10">
@@ -10,7 +8,7 @@ const Story = () => {
       <div className="flex items-center flex-col">
         <div className="flex items-stretch justify-center gap-5 mx-14 sm:max-w-[90%] w-[95%] mb-5 sm:space-y-0 space-y-10 flex-col md:flex-row">
           <div className="relative">
-            <Image
+            <img
               alt="slides"
               src="./story-1.svg"
               className="md:max-h-[220px] lg:max-h-[330px] 2xl:max-h-full"
@@ -20,7 +18,7 @@ const Story = () => {
             </p>
           </div>
           <div className="relative">
-            <Image
+            <img
               alt="slides"
               src="./story-2.svg"
               className="md:max-h-[220px] lg:max-h-[330px] 2xl:max-h-full"
@@ -32,7 +30,7 @@ const Story = () => {
         </div>
         <div className="flex items-center justify-center gap-5 mx-14 sm:max-w-[90%] sm:space-y-0 space-y-[4rem] w-[95%] flex-col md:flex-row">
           <div className="relative">
-            <Image
+            <img
               alt="slides"
               src="./story-3.svg"
               className="md:max-h-[220px] lg:max-h-[330px] 2xl:max-h-full"
@@ -42,7 +40,7 @@ const Story = () => {
             </p>
           </div>
           <div className="relative">
-            <Image
+            <img
               alt="slides"
               src="./story-4.svg"
               className="md:max-h-[220px] lg:max-h-[330px] 2xl:max-h-full"
