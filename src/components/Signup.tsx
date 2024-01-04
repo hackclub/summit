@@ -19,7 +19,7 @@ const Signup = () => {
 
             window.location.href = `https://forms.hackclub.com/t/7KAzGVZ7Umus?email=${encodeURIComponent(
               email
-            )}&fname=${encodeURIComponent(firstName)}&lname=${encodeURIComponent(lastName)}`;
+            )}&first_name=${encodeURIComponent(firstName)}&last_name=${encodeURIComponent(lastName)}`;
           }}
           className="p-12 border-[6px] border-secondary h-auto max-h-[450px] my-0 mx-auto lg:mx-0"
         >
