@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { Accordion, AccordionHeader, AccordionBody } from "@material-tailwind/react";
+import {
+  Accordion,
+  AccordionHeader,
+  AccordionBody,
+} from "@material-tailwind/react";
 
 function Icon({ id, open }: { id: number; open: number }) {
   return (
@@ -9,9 +13,15 @@ function Icon({ id, open }: { id: number; open: number }) {
       viewBox="0 0 24 24"
       strokeWidth={2}
       stroke="currentColor"
-      className={`${id === open ? "rotate-180" : ""} h-5 w-5 transition-transform`}
+      className={`${
+        id === open ? "rotate-180" : ""
+      } h-5 w-5 transition-transform`}
     >
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+      />
     </svg>
   );
 }
@@ -24,7 +34,8 @@ const CUSTOM_ANIMATION = {
 const items = [
   {
     title: "Does participating cost anything?",
-    content: "It does not! We’ll have delicious meals, snacks, and beverages onsite at the event, as well as swag and fun mini-events. We also have travel stipends that cover flights and public transit for leaders who don’t live in San Francisco. You can apply for a stipend while signing up!",
+    content:
+      "It does not! We’ll have delicious meals, snacks, and beverages onsite at the event, as well as swag and fun mini-events. We also have travel stipends that cover flights and public transit for leaders who don’t live in San Francisco. You can apply for a stipend while signing up! Max per stipend is $500 USD.",
   },
   {
     title: "Am I eligible to sign up for The Summit?",
@@ -43,20 +54,24 @@ const items = [
   },
   {
     title: "Where in SF is the event?",
-    content: "Our venue is right in the middle of San Francisco! We’ll release the exact address leading up to the event, but it is a 5 minute walk from Mission Dolores Park!"
+    content:
+      "Our venue is right in the middle of San Francisco! We’ll release the exact address leading up to the event, but it is a 5 minute walk from Mission Dolores Park!",
   },
   {
     title: "What are the sleeping arrangements?",
-    content: "On the night of the event we will have a designated gender-seperated and supervised sleeping area in the venue with lowlights and minimal sound for you to rest. Make sure to bring a sleeping bag!"
+    content:
+      "On the night of the event we will have a designated gender-seperated and supervised sleeping area in the venue with lowlights and minimal sound for you to rest. Make sure to bring a sleeping bag!",
   },
   {
     title: "My parents are worried. What should I do?",
-    content: "We want to make sure everyone can come! If the have questions, encourage them to reach out to us! We’re happy to talk to them. The Summit will be supervised by a background checked staff and 24/7 security. Shoot us an email at summit@hackclub.com, and we’ll be happy to answer any questions!"
+    content:
+      "We want to make sure everyone can come! If the have questions, encourage them to reach out to us! We’re happy to talk to them. The Summit will be supervised by a background checked staff and 24/7 security. Shoot us an email at summit@hackclub.com, and we’ll be happy to answer any questions!",
   },
   {
     title: "I have more questions. How can I reach out?",
-    content: "Reach out on #the-summit on the Hack Club Slack, or email the team at summit@hackclub.com. We're always ready to answer all your questions!"
-  }
+    content:
+      "Reach out on #the-summit on the Hack Club Slack, or email the team at summit@hackclub.com. We're always ready to answer all your questions!",
+  },
 ];
 
 export function AccordionComponent() {
@@ -75,10 +90,16 @@ export function AccordionComponent() {
           icon={<Icon id={index + 1} open={open} />}
           animate={CUSTOM_ANIMATION}
         >
-          <AccordionHeader placeholder="header" className="sm:text-2xl py-2 my-1 border-none" onClick={() => handleOpen(index + 1)}>
+          <AccordionHeader
+            placeholder="header"
+            className="sm:text-2xl py-2 my-1 border-none"
+            onClick={() => handleOpen(index + 1)}
+          >
             {item.title}
           </AccordionHeader>
-          <AccordionBody className="p-0 pb-3 text-xl">{item.content}</AccordionBody>
+          <AccordionBody className="p-0 pb-3 text-xl">
+            {item.content}
+          </AccordionBody>
         </Accordion>
       ))}
     </>
