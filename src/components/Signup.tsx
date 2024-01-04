@@ -12,6 +12,7 @@ const Signup = () => {
         <img
           src="/signup.svg"
           className="h-auto lg:block hidden max-h-[450px] border-t-[6px] border-secondary"
+          alt="signup graphic"
         />
         <form
           onSubmit={(e) => {
@@ -79,6 +80,7 @@ const Signup = () => {
         <img
           src="/rsvp.svg"
           className="h-auto lg:block hidden max-h-[450px] border-b-[6px] border-secondary"
+          alt="rsvp here"
         />
         <div className="flex-1 bg-primary h-auto border-b-[6px] border-secondary"></div>
       </div>
