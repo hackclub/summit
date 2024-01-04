@@ -55,12 +55,12 @@ export function AccordionComponent() {
         <Accordion
           placeholder="Accordion"
           key={index}
-          className="bg-primary text-secondary border-b-[3px] border-secondary"
+          className="bg-primary text-secondary border-b-[3px] border-secondary px-2"
           open={open === index + 1}
           icon={<Icon id={index + 1} open={open} />}
           animate={CUSTOM_ANIMATION}
         >
-          <AccordionHeader placeholder="header" className="text-2xl py-2 my-1 border-none" onClick={() => handleOpen(index + 1)}>
+          <AccordionHeader placeholder="header" className="sm:text-2xl py-2 my-1 border-none" onClick={() => handleOpen(index + 1)}>
             {item.title}
           </AccordionHeader>
           <AccordionBody className="p-0 pb-3 text-xl">{item.content}</AccordionBody>
