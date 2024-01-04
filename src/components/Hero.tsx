@@ -13,7 +13,7 @@ const Hero = () => {
           <h1
             className={`text-[5rem] ${unifraktur.className} text-secondary px-5 border-[3px] border-secondary`}
           >
-            Leaders Summit
+            The Summit
           </h1>
           <img
             alt="Hack Club Logo"
@@ -34,7 +34,7 @@ const Hero = () => {
               boxShadow: "rgba(255, 236, 150, 1) 0px 0px 0px 2px",
             }}
           >
-            Register for Summit
+            Register for The Summit
           </button>
         </div>
       </div>

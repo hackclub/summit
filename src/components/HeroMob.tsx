@@ -12,7 +12,7 @@ const HeroMob = () => {
           <h1
             className={`text-[6rem] ${unifraktur.className} text-secondary px-5 border-t-[3px] border-b-[3px] border-secondary py-10 leading-none text-center`}
           >
-            Leaders Summit
+            The Summit
           </h1>
         </div>
       </div>

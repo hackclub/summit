@@ -16,4 +16,3 @@ Also, here are some ideas to draw inspiration from:
 ## How can I join?
 
 ## I have more questions...
-

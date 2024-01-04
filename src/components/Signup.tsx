@@ -23,7 +23,7 @@ const Signup = () => {
           }}
           className="p-12 border-[6px] border-secondary h-auto max-h-[450px] my-0 mx-auto lg:mx-0"
         >
-          <h1 className="text-center text-5xl mb-2">Your First Step Begins...&nbsp;now</h1>
+          <h1 className="text-center text-5xl mb-2">Your First Step Begins...&nbsp;Now</h1>
           <p className="text-center text-xl mb-12">Be brave and join us at The Summit</p>
           <div className="flex gap-6 mb-8">
             <div className="flex-1 items-stretch justify-center">
