@@ -1,5 +1,6 @@
 import { UnifrakturCook } from "next/font/google";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const unifraktur = UnifrakturCook({ weight: "700", subsets: ["latin"] });
 
@@ -11,7 +12,7 @@ const HeroMob = () => {
         className="border-secondary border-t-[3px] flex justify-end"
         style={{ width: "calc(100%)" }}
       >
-        <img
+        <Image
           alt="Hack Club Logo"
           src="./HackClubLogo.svg"
           width={78}
@@ -46,7 +47,7 @@ const HeroMob = () => {
         </button>
       </div>
       <div>
-        <img alt="SF" src="./bridge.svg" className="mt-6 object-contain" />
+        <Image alt="SF" src="./bridge.svg" className="mt-6 object-contain" />
       </div>
     </div>
   );
