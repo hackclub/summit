@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <body>
         <Head>
-        {/* <meta charSet="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>The Summit</title>
         <meta property="og:title" content="The Summit" />
@@ -17,7 +17,7 @@ export default function Document() {
           property="og:description"
           content="A weekend of invention, collaboration, and friendship in San Francisco with 50 Hack Club leaders from around the world."
         />
-        <meta name="twitter:card" content="/public/bridge.png" />
+        <meta name="twitter:card" content="/bridge.png" />
         <meta
           name="keywords"
           content="Leader, leader, summit, Summit, Hack Club, Invention, Collaboration, Friendship, Weekend event, San Francisco, Hack Club, Global leaders, Hackathon, Technology, Innovation, Networking, Learning, Creative thinking, Community building, Coding, Programming, Project development, Skill sharing, Global collaboration, Tech enthusiasts"
@@ -39,7 +39,7 @@ export default function Document() {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e34d4d" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#B42E1E" />
-        <meta property="og:image" content="/public/bridge.svg" /> */}
+        <meta property="og:image" content="/bridge.png" />
         </Head>
         <Main />
         <NextScript />
