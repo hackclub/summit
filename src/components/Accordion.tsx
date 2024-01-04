@@ -51,7 +51,7 @@ const items = [
   },
   {
     title: "My parents are worried. What should I do?",
-    content: "Please refer to the parents’ guide for additional information! If they have any additional questions, encourage them to reach out to us! We’re happy to talk to them. The Summit will be supervised by a background checked staff and 24/7 security. Shoot us an email at summit@hackclub.com, and we’ll be happy to answer any questions!"
+    content: "We want to make sure everyone can come! If the have questions, encourage them to reach out to us! We’re happy to talk to them. The Summit will be supervised by a background checked staff and 24/7 security. Shoot us an email at summit@hackclub.com, and we’ll be happy to answer any questions!"
   },
   {
     title: "I have more questions. How can I reach out?",
