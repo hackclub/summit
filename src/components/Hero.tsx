@@ -13,7 +13,7 @@ const Hero = () => {
           <h1
             className={`text-[5rem] ${unifraktur.className} text-secondary px-5 border-[3px] border-secondary`}
           >
-            The Summit
+            Leaders Summit
           </h1>
           <img
             alt="Hack Club Logo"
@@ -24,8 +24,8 @@ const Hero = () => {
         </div>
         <div className="flex items-stretch max-w-[725px]">
           <p className="text-left flex-[2] border-t-0 border-[3px] border-secondary text-secondary p-3 text-2xl">
-            A magical weekend of invention in San Francisco with the best club leaders from around
-            the world
+            A weekend of invention, collaboration, and friendship in San Francisco with 50 Hack
+            Club leaders from around the world.
           </p>
           <button
             onClick={() => router.push("/#dream")}
@@ -34,7 +34,7 @@ const Hero = () => {
               boxShadow: "rgba(255, 236, 150, 1) 0px 0px 0px 2px",
             }}
           >
-            Register for The Summit
+            Register for Summit
           </button>
         </div>
       </div>

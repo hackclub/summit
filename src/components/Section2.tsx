@@ -1,15 +1,12 @@
 const Section2 = () => {
   return (
     <div className="bg-secondary relative pt-10">
-      <div
-        className="absolute right-5 w-1 bg-primary -top-20 z-10 sm:block hidden"
-        style={{ height: "calc(100% + 5rem)" }}
-      />
-      <div
-        className="absolute left-5 w-1 bg-primary -top-20 z-10 sm:block hidden"
-        style={{ height: "calc(100% + 3.6rem)" }}
-      />
-      <h2 className="text-center text-primary text-5xl mb-14">Welcome to The Summit...</h2>
+      <div className="absolute sm:right-5 right-2 w-1 bg-primary sm:-top-20 -top-8 z-10 sm:h-[calc(100%_+_5rem)] h-[calc(100%_+_2rem)]" />
+      <div className="absolute sm:left-5 left-2 w-1 bg-primary sm:-top-20 -top-6 z-10 sm:h-[calc(100%_+_3.6rem)] h-[calc(100%_+_1.5rem)]" />
+      <h2 className="text-center text-primary text-5xl mb-14">
+        Welcome to
+        <br className="sm:hidden block" /> The Summit...
+      </h2>
       <div className="grid sm:grid-cols-3">
         <div className="flex items-center flex-col justify-center gap-2 sm:border-r-4 border-primary pb-20">
           <img alt="section" src="./plane.svg" />
@@ -27,7 +24,7 @@ const Section2 = () => {
           <h3 className="text-center text-primary text-2xl">a city of dreams</h3>
         </div>
       </div>
-      <img alt="divider" className="-mt-5" src="./triangles.svg" />
+      <img alt="divider" className="-mt-5 sm:block hidden" src="./triangles.svg" />
     </div>
   );
 };

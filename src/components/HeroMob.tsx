@@ -7,40 +7,46 @@ const HeroMob = () => {
   const router = useRouter();
   return (
     <div className="sm:hidden flex flex-col items-center bg-primary">
+      <div
+        className="border-secondary border-t-[3px] flex justify-end"
+        style={{ width: "calc(100%)" }}
+      >
+        <img
+          alt="Hack Club Logo"
+          src="./HackClubLogo.svg"
+          width={78}
+          className="self-end ml-4 mr-3 border-l-[3px] border-secondary"
+        />
+      </div>
       <div className="flex flex-col items-center" style={{ width: "calc(100% - 1rem)" }}>
-        <div className="flex items-center mt-8">
+        <div className="flex items-center">
           <h1
-            className={`text-[6rem] ${unifraktur.className} text-secondary px-5 border-t-[3px] border-b-[3px] border-secondary py-10 leading-none text-center`}
+            className={`text-[5rem] ${unifraktur.className} text-secondary px-5 border-t-[3px] border-b-[3px] border-secondary py-10 leading-none text-center`}
           >
-            The Summit
+            Leaders Summit
           </h1>
         </div>
       </div>
-      <div className="text-secondary text-[24px] mt-5 pl-5">
-        A magical weekend of invention in<br></br>San Francisco with the best club leaders from
-        around the world
+      <div className="text-secondary text-2xl mt-5 px-6">
+        A weekend of invention, collaboration, and friendship in San Francisco with 50 Hack Club
+        leaders from around the world.
       </div>
       <div
         className="flex items-center  border-t-[3px] border-b-[3px] border-secondary mt-5"
         style={{ width: "calc(100% - 1rem)" }}
       >
-        <div>
-          <img alt="Hack Club Logo" src="./HackClubLogo.svg" width={137} />
-        </div>
-
-        <div className="border-[2px] h-[15vh] border-secondary"></div>
         <button
           onClick={() => router.push("/#dream")}
-          className="flex-1 bg-secondary w-[220px] py-10 text-primary text-2xl border-primary m-2"
+          className="flex-1 bg-secondary w-[220px] py-4 text-primary text-2xl border-primary m-2 mx-3"
           style={{
             boxShadow: "rgba(255, 236, 150, 1) 0px 0px 0px 2px",
           }}
         >
-          Share Your Dream
+          Register for Summit
         </button>
       </div>
       <div>
-        <img alt="SF" src="./bridge.svg" className="h-[50vh] object-contain" />
+        <img alt="SF" src="./bridge.svg" className="mt-6 object-contain" />
       </div>
     </div>
   );

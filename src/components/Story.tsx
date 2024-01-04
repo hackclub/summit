@@ -1,9 +1,9 @@
 const Story = () => {
   return (
     <div className="bg-primary relative py-10">
-      <div className="flex items-center justify-end gap-2 pl-16 mb-14">
-        <h2 className="text-secondary text-4xl flex-1">Here's&nbsp;Your&nbsp;Story</h2>
-        <div className="w-full h-1 max-w-[75%] bg-secondary" />
+      <div className="flex items-center justify-end gap-2 sm:pl-16 mb-14">
+        <h2 className="text-secondary text-4xl flex-1 text-center sm:text-left">Here's&nbsp;Your&nbsp;Story</h2>
+        <div className="w-full h-1 max-w-[75%] bg-secondary sm:block hidden" />
       </div>
       <div className="flex items-center flex-col">
         <div className="flex items-stretch justify-center gap-5 mx-14 sm:max-w-[90%] w-[95%] mb-5 sm:space-y-0 space-y-10 flex-col md:flex-row">
