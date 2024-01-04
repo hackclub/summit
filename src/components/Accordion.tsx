@@ -55,7 +55,7 @@ const items = [
   },
   {
     title: "I have more questions. How can I reach out?",
-    content: "Reach out on #summit on the Hack Club Slack, or email the team at summit@hackclub.com. We're always ready to answer all your questions!"
+    content: "Reach out on #the-summit on the Hack Club Slack, or email the team at summit@hackclub.com. We're always ready to answer all your questions!"
   }
 ];
 
