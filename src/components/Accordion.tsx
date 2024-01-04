@@ -53,6 +53,7 @@ export function AccordionComponent() {
     <>
       {items.map((item, index) => (
         <Accordion
+          placeholder="Accordion"
           key={index}
           className="bg-primary text-secondary border-b-[3px] border-secondary"
           open={open === index + 1}
