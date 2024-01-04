@@ -60,7 +60,7 @@ export function AccordionComponent() {
           icon={<Icon id={index + 1} open={open} />}
           animate={CUSTOM_ANIMATION}
         >
-          <AccordionHeader className="text-2xl py-2 my-1 border-none" onClick={() => handleOpen(index + 1)}>
+          <AccordionHeader placeholder="header" className="text-2xl py-2 my-1 border-none" onClick={() => handleOpen(index + 1)}>
             {item.title}
           </AccordionHeader>
           <AccordionBody className="p-0 pb-3 text-xl">{item.content}</AccordionBody>
