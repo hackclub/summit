@@ -1,7 +1,8 @@
 import { useState } from "react";
 
 const Signup = () => {
-  const [name, setName] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
 
   return (
@@ -14,11 +15,11 @@ const Signup = () => {
         <form
           onSubmit={(e) => {
             e.preventDefault();
-            if (!name || !email) return;
+            if (!firstName || !lastName || !email) return;
 
             window.location.href = `https://forms.hackclub.com/t/7KAzGVZ7Umus?email=${encodeURIComponent(
               email
-            )}&name=${encodeURIComponent(name)}`;
+            )}&fname=${encodeURIComponent(firstName)}&lname=${encodeURIComponent(lastName)}`;
           }}
           className="p-12 border-[6px] border-secondary h-auto max-h-[450px] my-0 mx-auto lg:mx-0"
         >
@@ -26,12 +27,24 @@ const Signup = () => {
           <p className="text-center text-xl mb-12">Be brave and join us at The Summit</p>
           <div className="flex gap-6 mb-8">
             <div className="flex-1 items-stretch justify-center">
-              <p className="text-xl mb-1">Full Name</p>
+              <p className="text-xl mb-1">First Name</p>
               <input
                 required
                 type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+                value={firstName}
+                onChange={(e) => setFirstName(e.target.value)}
+                className="w-full bg-secondary rounded-md p-2 mb-4 text-primary outline-none text-xl placeholder:text-primary/80"
+                placeholder="type your name here"
+              />
+            </div>
+            <div className="h-20 w-px bg-secondary" />
+            <div className="flex-1 items-stretch justify-center">
+              <p className="text-xl mb-1">Last Name</p>
+              <input
+                required
+                type="text"
+                value={lastName}
+                onChange={(e) => setLastName(e.target.value)}
                 className="w-full bg-secondary rounded-md p-2 mb-4 text-primary outline-none text-xl placeholder:text-primary/80"
                 placeholder="type your name here"
               />
