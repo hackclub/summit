@@ -13,12 +13,12 @@ const Section2 = () => {
       <div className="grid sm:grid-cols-3">
         <div className="flex items-center flex-col justify-center gap-2 sm:border-r-4 border-primary pb-20">
           <img alt="section" src="./plane.svg" />
-          <h2 className="text-center text-primary text-5xl">50 Inventors</h2>
+          <h2 className="text-center text-primary text-5xl">50 Leaders</h2>
           <h3 className="text-center text-primary text-2xl">a gathering of dreamers</h3>
         </div>
         <div className="flex items-center flex-col justify-center gap-2 pb-20">
           <img alt="section" src="./dinos.svg" />
-          <h2 className="text-center text-primary text-5xl">Feb 16th-18th</h2>
+          <h2 className="text-center text-primary text-5xl">Feb 9th-11th</h2>
           <h3 className="text-center text-primary text-2xl">a weekend of dreams</h3>
         </div>
         <div className="flex items-center flex-col justify-center gap-2 sm:border-l-4 border-primary pb-20">

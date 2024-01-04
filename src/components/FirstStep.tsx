@@ -11,7 +11,7 @@ const FirstStep = () => {
 
   return (
     <div id="dream" className="bg-primary relative py-10">
-      <h2 className="text-center text-secondary text-5xl">Your First Step Begins... now</h2>
+      <h2 className="text-center text-secondary text-5xl">Your First Step Begins... Now</h2>
       <p className="text-center text-secondary text-2xl mb-8">
         Dreams are projects ideas in your heart waiting to come to life
       </p>

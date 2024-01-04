@@ -9,7 +9,7 @@ const FAQ = () => {
       <div className="px-14">
         <AccordionComponent />
         <p className="py-4 text-xl text-secondary">
-          Have any other questions? Reach out to thomas@hackclub.com
+          Have any other questions? Reach out to summit@hackclub.com
         </p>
       </div>
     </div>
