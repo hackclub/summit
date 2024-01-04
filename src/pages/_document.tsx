@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <body>
         <Head>
-        <meta charSet="UTF-8" />
+        {/* <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>The Summit</title>
         <meta property="og:title" content="The Summit" />
@@ -39,7 +39,7 @@ export default function Document() {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e34d4d" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#B42E1E" />
-        <meta property="og:image" content="/public/bridge.svg" />
+        <meta property="og:image" content="/public/bridge.svg" /> */}
         </Head>
         <Main />
         <NextScript />
