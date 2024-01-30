@@ -1,6 +1,6 @@
 # Hack Club Leader's Summit
 
-The Summit is Hack Club’s first hackathon for club leaders around the world held in San Francisco from February 23th, 2024 (Friday, starting at noon) to February 25th (Sunday, ending at 6pm). 50 club leaders will come to the event and collaborate on projects that will make their clubs more magical. They will leave the event with a whole new set of tools built by other leaders at the event, many new friends, and a greater sense of ownership over the Hack Club community.
+The Summit is Hack Club’s first hackathon for club leaders around the world held in San Francisco from February 9th, 2024 (Friday, starting at 6pm PST) to February 11th (Sunday, ending at 6pm PST). 50 club leaders will come to the event and collaborate on projects that will make their clubs more magical. They will leave the event with a whole new set of tools built by other leaders at the event, many new friends, and a greater sense of ownership over the Hack Club community.
 
 ## What does it mean for a project to be magical?
 
