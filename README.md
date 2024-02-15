@@ -29,12 +29,44 @@ We ordered hundreds of these and mailed them out to every club leader in the wor
 ### 🌎 Attendees
 Over 50 Club leaders from around the world came to The Summit! Check out the map below to see the different clubs that came to The Summit & see who they collaborated with:
 ![https://cloud-mwjw3otyp-hack-club-bot.vercel.app/0screenshot_2024-02-15_at_12.57.04_pm.png](https://cloud-mwjw3otyp-hack-club-bot.vercel.app/0screenshot_2024-02-15_at_12.57.04_pm.png)
-[Link To The Map](https://summap.vercel.app)
+[Link To The Map](https://summap.vercel.app). This map & all of the photos were made by Ajith and Jack!
 
 We offered flight stipends to make it possible for these club leaders to come to San Francisco on this great adventure. We had $500 stipends for domestic, Canadian, and European flights (the cost of the flight was typically under $500, so the stipend almost always covered the whole cost of the flight), and we offered $1,000 stipends to those traveling internationally. 
 ### 🚲🌁 Summit Shenanigans *(event schedule)*
 
+#### Friday
+**Event Countdown**: Harp & Violin players, Korean Food from Donwoori, attendees start socializing
 
+**Opening Ceremony**: Attendees gather in the main area, concept behind the event is made explicitly clear, and we bring hype to the room with a speech from Zach
+
+**Ice Breaker**: Attendees found other attendees who had the same badge. They then pitched wacky products with their randomly-assigned teams
+
+**Announcement Of Prompt**: "Build something magical to bring back to your club"
+
+**Team Formation**: We asked the club leaders to form teams of 3-4 people in 2 minutes. 
+
+**Design Inspo Scrolls**: We then had a basket of scrolls and asked each team to come and take a scroll. Each scroll has a source of design inspiration inside. 
+
+**Midnight Milkshakes by Sam**: Sam made milkshakes for everyone!
+
+#### Saturday
+6AM Bike Ride To Golden Gate Bridge: 50 Hack Clubbers went on bikes to the golden gate bridge!
+
+3:30PM Vision Pro Demo: Conrad Kramer brought his Vision Pro and let Hack Clubbers try the headset
+
+4:30PM Tom Preston-Werner Visits The Summit & meets Club Leaders 
+
+6:30PM Round Table Dinner Discussion With Club Leaders hosted by Peter
+
+12AM-3AM Intense Push To Finish Projects
+
+#### Sunday
+
+1PM Demos
+
+2:30 PM Closing Ceremony & Prizes 
+
+3:00 Go have lunch with your team (& they receive $20 in cash)
 ### ⛵ Project Ships  
 Projects ranged from r/place for clubs, a data visualization of the whole slack, a club inventory system to give members achievements for coming to meetings, an orpheus tomagochi home screen widget, a screaming fish that detects when the rooms gets too loud, and an app to help club members meet other members with similar interests.
 
