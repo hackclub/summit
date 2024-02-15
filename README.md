@@ -40,6 +40,7 @@ We offered flight stipends to make it possible for these club leaders to come to
 #### Friday
 
 ![Uber](https://cloud-5lvfya2hq-hack-club-bot.vercel.app/0pxl_20240210_015934386.mp.jpg)
+![SFO@6pm](https://e2009.s3.us-west-1.amazonaws.com/Summit+Arrival+with+Sam.jpg)
 
 **6PM Doors Open**
 
