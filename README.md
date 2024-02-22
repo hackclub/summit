@@ -140,4 +140,8 @@ Here's [a video of the badges being laser etched into the wood]([https://cloud-9
 
 ### 🏦 Budget 
 
+W.I.P
+
 ### 🍵 📖 Lessons Learned
+
+W.I.P
