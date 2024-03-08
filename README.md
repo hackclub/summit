@@ -140,8 +140,36 @@ Here's [a video of the badges being laser etched into the wood]([https://cloud-9
 
 ### 🏦 Budget 
 
-W.I.P
+These were our budget estimations
+
+| Item                                           | Cost | Quantity | Total |
+| ---------------------------------------------- | ---- | -------- | ----- |
+| Travel Stipends (US and Canada)                | 400  | 50       | 20000 |
+| Travel Stipends for International Superleaders | 1000 | 5        | 5000  |
+| Event Meals                                    | 18   | 250      | 4500  |
+| Friday Dinner                                  | 25   | 50       | 1250  |
+| T-Shirt, Stickers, & Badge                     | 20   | 70       | 1400  |
+| Supplies                                       | 15   | 50       | 750   |
+| Venue Maintainence / Security / Misc           | 3000 | 1        | 3000  |
+| Invite Letter to Leaders                       | 3.25 | 600      | 1950  |
+| Transportation                                 | 30   | 65       | 1950  |
+| Reserve for Emergency Use                      | 5000 | 1        | 5000  |
+| Lunar New Year Meal                            | 15   | 50       | 750   |
+|                                                |      |          |       |
+|                                                |      |          |       |
+| Total                                          |      |          | 45550 |
+
+We're still in the process the actual cost distribution of the event. 
 
 ### 🍵 📖 Lessons Learned
 
-W.I.P
+**Schedule Generously**
+Everything you as an organizer schedule for will take twice as long as you imagine. If you imagine a bike ride to the Golden Gate Bridge will take two hours, it will actually take four. It's important to make generous time estimates to ensure things don't get off schedule. Something we could have done much better is making a run of show that gave enough time to the various shenanigans that took place. 
+
+**People Look To You**
+People look to organizers to see what they should be doing. If organizers are preparing for the next big activity, then attendees will start preparing for the next big activity. If organizers are working on building a project, then attendees will work on building a project. Saturday afternoon, Dev and I were pretty concerned with the fact that it seems like many teams were not close to finishing their projects. This put us in crunch mode and we had the idea that we should give people a "3 hour push" to do everything they can to progress their projects. During this time, Dev, Max, and I started working on a Slack Bot called Slackapolt that catapults people into specific slack channels (for club leaders to invite their members). 
+
+**Find A Team That Complements Your Strengths & Weaknesses** 
+Working The Summit organizing team was incredible. Even when things were not going super well from an organizer point of view and we were having trouble figuring out how to fit things into the schedule, Brianna was incredibly calm and solution-minded. When suddenly we needed to get prizes, Fayd and Ivoine stepped up and went to get them asap. When I was working out details of the schedule, Dev was finding local harp plays to make the first entrance feel magical. Dev has this skill of finding ways to put money toward things that most people would not think of that provide disproportionate value. If you're going to organize something great, it's incredibly important to have an organizing team you can rely on.
+
+There are more lessons that as they come to mind, I'll add them to this document. 
