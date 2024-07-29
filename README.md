@@ -1,5 +1,3 @@
-***(THIS DOCUMENT IS A WORK IN PROGRESS! I AM CURRENTLY MAKING THIS DRAFT IN THE OPEN SO WE CAN GET FEEDBACK FROM THE COMMUNITY & SO LEADERS ARE ABLE TO CONTRIBUTE TO THIS README)***
-
 ![Banner](https://cloud-qvaqr68xu-hack-club-bot.vercel.app/0summithighres.png)
 
 Hey, Thomas here! Welcome to the behind-the-scenes of the first Hack Club Hackathon for Club Leaders. It took place over the weekend of February 9th - 11th 2024 in San Francisco. 
